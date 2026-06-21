@@ -2,6 +2,7 @@
   "name": "@workspace/car",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "npm@10.2.4",
   "main": "expo-router/entry",
   "scripts": {
     "dev": "EXPO_PACKAGER_PROXY_URL=https://$REPLIT_EXPO_DEV_DOMAIN EXPO_PUBLIC_DOMAIN=$REPLIT_DEV_DOMAIN EXPO_PUBLIC_REPL_ID=$REPL_ID REACT_NATIVE_PACKAGER_HOSTNAME=$REPLIT_DEV_DOMAIN pnpm exec expo start --localhost --port $PORT",
