@@ -34,6 +34,10 @@ yarn-error.*
 # local env files
 .env*.local
 
+# package manager lockfiles (Replit generates these with internal URLs)
+package-lock.json
+yarn.lock
+
 # typescript
 *.tsbuildinfo
 .vercel
