@@ -1,7 +1,4 @@
 {
-  "cli": {
-    "version": ">= 5.0.0"
-  },
   "build": {
     "preview": {
       "android": {
@@ -9,22 +6,6 @@
       },
       "env": {
         "NPM_CONFIG_LEGACY_PEER_DEPS": "1"
-      }
-    },
-    "production": {
-      "android": {
-        "buildType": "app-bundle"
-      },
-      "env": {
-        "NPM_CONFIG_LEGACY_PEER_DEPS": "1"
-      }
-    }
-  },
-  "submit": {
-    "production": {
-      "android": {
-        "serviceAccountKeyPath": "./google-services.json",
-        "track": "internal"
       }
     }
   }
