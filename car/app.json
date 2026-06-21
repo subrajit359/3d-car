@@ -2,6 +2,7 @@
   "expo": {
     "name": "3D Car Game",
     "slug": "car",
+    "owner": "subro98",
     "version": "1.0.0",
     "orientation": "landscape",
     "icon": "./assets/images/icon.png",
