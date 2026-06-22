@@ -22,14 +22,14 @@
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.anonymous.car"
+      "package": "com.anonymous.car",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/images/icon.png"
     },
     "plugins": [
-      "expo-font",
-      "expo-web-browser"
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
